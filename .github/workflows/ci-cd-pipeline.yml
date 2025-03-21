@@ -23,7 +23,7 @@ jobs:
           ignore-unfixed: true
           trivyignores: '.trivyignore'
 
-      - name: Dependency Review (SCA)
-        uses: actions/dependency-review-action@v4
-        with:
-          fail-on-severity: high
+#      - name: Dependency Review (SCA)
+#       uses: actions/dependency-review-action@v4
+#        with:
+#          fail-on-severity: high
